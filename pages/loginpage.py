@@ -1,5 +1,5 @@
-from PO.mydriver import Driver
-from PO.basepage import username,password
+from PO.myDriverTool.mydriver import Driver
+from PO.pages.basepage import username,password
 class login:
     def __init__(self):
         self.driver = Driver.getDriver()

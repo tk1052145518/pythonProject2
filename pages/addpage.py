@@ -1,5 +1,5 @@
 
-from PO.mydriver import Driver
+from PO.myDriverTool.mydriver import Driver
 import time
 
 class Addpage():
